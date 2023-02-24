@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #248888;
+  height: 100vh;
+}
+
+.container{
+  width: 618px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.square{
+  width: 200px;
+  height: 200px;
+  background-color: palevioletred;
+  border: 2px solid white;
+  color: black;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.start{
+  width: 180px;
+  height: 180px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: #f1c40f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: 0px 6px 2px 0px #bf9901;
+  
+}
+
+.start:active{
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 0px 0px 0px;
+}
+
+.square{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.is-active{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 230, 0);
+  box-shadow: 0px 0px 25px 4px rgb(255, 230, 0);
+  color: black;
+}
+
+.square_content i{
+  color: white;
+}
+
+.is-active .square_content i{
+  color: black;
+}
