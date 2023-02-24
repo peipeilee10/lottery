@@ -7,11 +7,14 @@
 
 
 body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #248888;
-  height: 100vh;
+  text-align: center;
+}
+
+h1{
+  color: white;
+  font-size: 60px;
+  margin: 60px 0;
 }
 
 .container{
@@ -21,6 +24,7 @@ body{
   justify-content: center;
   align-items: center;
   gap: 6px;
+  margin: auto;
 }
 
 .square{
